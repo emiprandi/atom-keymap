@@ -1,0 +1,99 @@
+# Your keymap
+#
+# Atom keymaps work similarly to stylesheets. Just as stylesheets use selectors
+# to apply styles to elements, Atom keymaps use selectors to associate
+# keystrokes with events in specific contexts.
+#
+# You can create a new keybinding in this file by typing "key" and then hitting
+# tab.
+#
+# Here's an example taken from Atom's built-in keymap:
+#
+# '.editor':
+#   'enter': 'editor:newline'
+#
+# 'body':
+#   'ctrl-P': 'core:move-up'
+#   'ctrl-p': 'core:move-down'
+#
+
+# base.json override
+'.editor:not(.mini)':
+    "ctrl-C": ""
+    "ctrl-K": ""
+    "ctrl-shift-up": ""
+    "ctrl-shift-down": ""
+
+# darwin.json override
+"body":
+    "cmd-h": ""
+    "cmd-alt-h": ""
+    "cmd-m": ""
+    "alt-cmd-ctrl-m": ""
+    "ctrl-p": ""
+    "ctrl-n": ""
+    "ctrl-b": ""
+    "ctrl-f": ""
+    "ctrl-P": ""
+    "ctrl-N": ""
+    "ctrl-F": ""
+    "ctrl-B": ""
+    "ctrl-h": ""
+    "ctrl-d": ""
+    "cmd-O": ""
+    "cmd-alt-ctrl-s": ""
+    "cmd-N": ""
+    "cmd-W": ""
+    "cmd-alt-s": ""
+    "shift-backspace": "editor:backspace-to-beginning-of-line"
+    "cmd-{": ""
+    "cmd-}": ""
+    "cmd-=": ""
+    "cmd-+": ""
+    "cmd--": ""
+    "cmd-_": ""
+    "cmd-0": ""
+    "cmd-k alt-cmd-w": ""
+    "cmd-k cmd-p": ""
+    "cmd-k cmd-n": ""
+    "cmd-1": ""
+    "cmd-2": ""
+    "cmd-3": ""
+    "cmd-4": ""
+    "cmd-5": ""
+    "cmd-6": ""
+    "cmd-7": ""
+    "cmd-8": ""
+    "cmd-9": ""
+
+".editor":
+    "ctrl-A": ""
+    "ctrl-E": ""
+    "ctrl-a": ""
+    "ctrl-e": ""
+    "ctrl-k": ""
+    "ctrl-W": ""
+
+".workspace .editor:not(.mini)":
+    "alt-cmd-z": ""
+    "cmd-<": ""
+    "alt-cmd-ctrl-f": ""
+    "cmd-alt-+": "editor:indent-selected-rows"
+    "cmd-alt-unidentified": "editor:outdent-selected-rows"
+    "ctrl-cmd-up": ""
+    "ctrl-cmd-down": ""
+    "cmd-j": "toggle-quotes:toggle"
+    "cmd-alt-[": ""
+    "cmd-alt-]": ""
+    "cmd-alt-{": ""
+    "cmd-alt-}": ""
+    "cmd-k cmd-0": ""
+    "cmd-k cmd-1": ""
+    "cmd-k cmd-2": ""
+    "cmd-k cmd-3": ""
+    "cmd-k cmd-4": ""
+    "cmd-k cmd-5": ""
+    "cmd-k cmd-6": ""
+    "cmd-k cmd-7": ""
+    "cmd-k cmd-8": ""
+    "cmd-k cmd-9": ""
