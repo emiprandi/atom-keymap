@@ -1,4 +1,6 @@
 atom-keymap
 ===========
 
-[Atom.io](http://atom.io) keymap for spanish keyboard layout. Improves indentation shortcuts and other things.
+[Atom.io](https://atom.io) keymap for spanish keyboard layout.
+
+Overrides some shortcuts and improves the ones i use the most (like indentation).
